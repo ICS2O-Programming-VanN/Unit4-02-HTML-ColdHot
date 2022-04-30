@@ -10,7 +10,7 @@ function judge() {
   const SUPERNOVA = 1000000000000
   
   // Variables
-  let celsius = parseInt(document.getElementById('celsius').value) // Makes variable an integer
+  let celsius = parseFloat(document.getElementById('celsius').value) // Makes variable an integer
 
   // Output messages if the user got it or not
   let message = ""
